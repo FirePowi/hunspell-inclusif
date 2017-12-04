@@ -7,7 +7,7 @@ mkdir -p builds
 mkdir -p builds/firefox
 
 #Firefox
-ZIPNAME=$SRC/builds/firefox/fr-inclusif-$VERSION.zip
+ZIPNAME=$SRC/builds/firefox/fr-inclusif-$VERSION.xpi
 
 cp $SRC/firefox/install.rdf $SRC/builds/firefox/install.rdf
 sed -i "s/{{BUILD.VERSION}}/$VERSION/g" $SRC/builds/firefox/install.rdf
