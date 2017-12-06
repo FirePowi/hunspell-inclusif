@@ -10,7 +10,7 @@
       Other install.rdf metadata such as em:localized, em:description, em:creator,
       em:developer, em:translator, em:contributor or em:homepageURL
     -->
-    <em:name>Dictionnaire français en écriture inclusive</em:name>
+    <em:name>Dictionnaire français - Écriture inclusive</em:name>
     <em:description>Dictionnaire orthographique de la langue française, compatible avec l'écriture inclusive</em:description>
     <em:creator>Discord La Commune</em:creator>
     <em:contributor>Olivier R.</em:contributor>
@@ -22,7 +22,7 @@
     <em:contributor>Pierre-Yves</em:contributor>
     <em:contributor>Renouvo</em:contributor>
     <em:contributor>Discord La Commune</em:contributor>
-    <em:homepageURL>http://www.dicollecte.org/</em:homepageURL>
+    <em:homepageURL>https://github.com/DiscordLaCommune/hunspell-inclusif</em:homepageURL>
 
     <!-- Firefox -->
     <em:targetApplication>

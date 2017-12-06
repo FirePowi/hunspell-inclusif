@@ -44,7 +44,7 @@ MAP wW
 MAP xX
 MAP zZ
 
-REP 83
+REP 82
 REP ^Ca$ Ça
 REP ^l l'
 REP ^d d'
@@ -127,7 +127,6 @@ REP questionnable discutable
 REP antitartre détartrant
 REP email courriel
 REP construirent construisirent
-REP . ·
 
 
 
@@ -364,7 +363,7 @@ SFX I. o i o
 SFX I. um a um
 SFX I. us i us
 
-SFX F. Y 210
+SFX F. Y 221
 SFX F. 0 s [eë]
 SFX F. e 0 [éiï]e
 SFX F. e s [éiï]e
@@ -383,11 +382,16 @@ SFX F. de ds de
 SFX F. de d·e de
 SFX F. de d·e·s de
 SFX F. de d·es de
-SFX F. fe f fe
-SFX F. fe fs fe
-SFX F. fe f·e fe
-SFX F. fe f·e·s fe
-SFX F. fe f·es fe
+SFX F. fe f [^f]fe
+SFX F. fe fs [^f]fe
+SFX F. fe f·e [^f]fe
+SFX F. fe f·e·s [^f]fe
+SFX F. fe f·es [^f]fe
+SFX F. ffe f effe
+SFX F. ffe fs effe
+SFX F. ffe f·fe effe
+SFX F. ffe f·fe·s effe
+SFX F. ffe f·fes effe
 SFX F. anche anc anche
 SFX F. anche ancs anche
 SFX F. anche anc·he anche
@@ -398,13 +402,12 @@ SFX F. èche ecs èche
 SFX F. èche ec·èche èche
 SFX F. èche ec·èche·s èche
 SFX F. èche ec·èches èche
-SFX F. aiche ais aiche
 SFX F. aîche ais aîche
 SFX F. aîche ais·îche aîche
 SFX F. aîche ais·aîche aîche
 SFX F. aîche ai·îche·s aîche
-SFX F. aîche ai·îches aîche
 SFX F. aîche ai·aîche·s aîche
+SFX F. aîche ai·îches aîche
 SFX F. aîche ai·aîches aîche
 SFX F. khe kh khe
 SFX F. khe khs khe
@@ -446,9 +449,6 @@ SFX F. olle ou·olle·s olle
 SFX F. olle ou·olles olle
 SFX F. olle ol olle
 SFX F. olle ols olle
-SFX F. olle ol·le olle
-SFX F. olle ol·le·s olle
-SFX F. olle ol·les olle
 SFX F. ne n [aiouï]ne
 SFX F. ne ns [aiouï]ne
 SFX F. ne n·e [aiouï]ne
@@ -493,11 +493,15 @@ SFX F. esse e·sses [^eo].esse
 SFX F. rofesse rofès rofesse
 SFX F. rofesse rofès·esse rofesse
 SFX F. rofesse rofès·esses rofesse
+SFX F. rofesse rofè·esse·s rofesse
+SFX F. rofesse rofè·esses rofesse
 SFX F. eresse eur eresse
 SFX F. eresse eurs eresse
 SFX F. eresse eur·resse eresse
 SFX F. eresse eur·resse·s eresse
 SFX F. eresse eur·resses eresse
+SFX F. eresse euresse eresse
+SFX F. eresse euresses eresse
 SFX F. oresse eur oresse
 SFX F. oresse eurs oresse
 SFX F. oresse eur·oresse oresse
@@ -506,18 +510,23 @@ SFX F. oresse eur·oresses oresse
 SFX F. sse s [^e]sse
 SFX F. sse s·se [^e]sse
 SFX F. sse s·ses [^e]sse
+SFX F. sse ·sse·s [^e]sse
+SFX F. sse ·sses [^e]sse
 SFX F. use us [^eo]use
 SFX F. use us·e [^eo]use
 SFX F. use us·es [^eo]use
-SFX F. use u·e·s [^eo]use
-SFX F. use u·es [^eo]use
+SFX F. use u·se·s [^eo]use
+SFX F. use u·ses [^eo]use
 SFX F. euse eur euse
 SFX F. euse eurs euse
 SFX F. euse eur·se euse
 SFX F. euse eur·se·s euse
 SFX F. euse eur·ses euse
+SFX F. euse eur·euse euse
 SFX F. euse eur·euse·s euse
 SFX F. euse eur·euses euse
+SFX F. euse eureuse euse
+SFX F. euse eureuses euse
 SFX F. te t [^èt]te
 SFX F. te ts [^èt]te
 SFX F. te t·e [^èt]te
@@ -572,20 +581,26 @@ SFX F. üe u üe
 SFX F. üe us üe
 SFX F. uë u·üe uë
 SFX F. uë u·üe·s uë
-SFX F. uë u·üeß uë
+SFX F. uë u·ües uë
 SFX F. ze z ze
 SFX F. ze z·e ze
+SFX F. ze z·es ze
 
-SFX W. N 46
+SFX W. N 47
 SFX W. e es e
 SFX W. ce x ce
 SFX W. ce x·ce ce
 SFX W. ce x·ces ce
-SFX W. use ux [eo]use
-SFX W. use ux·se [eo]use
-SFX W. use ux·ses [eo]use
-SFX W. use ux·use [eo]use
-SFX W. use ux·uses [eo]use
+SFX W. euse eux euse
+SFX W. euse eux·se euse
+SFX W. euse eux·ses euse
+SFX W. euse eux·euse euse
+SFX W. euse eux·euses euse
+SFX W. ouse oux ouse
+SFX W. ouse oux·se ouse
+SFX W. ouse oux·ses ouse
+SFX W. ouse oux·ouse ouse
+SFX W. ouse oux·ouses ouse
 SFX W. ausse aux ausse
 SFX W. ausse aux·sse ausse
 SFX W. ausse aux·sses ausse
@@ -608,21 +623,17 @@ SFX W. elle eaux·lles elle
 SFX W. elle eau·elle elle
 SFX W. elle eaux·elles elle
 SFX W. elle el [bv]elle
-SFX W. elle els [bv]elle
 SFX W. elle el·le [bv]elle
-SFX W. elle el·le·s [bv]elle
-SFX W. elle el·les [bv]elle
 SFX W. ieille ieux ieille
 SFX W. ieille ieil ieille
 SFX W. ieille ieil·le ieille
+SFX W. ieille ieil·le ieille
+SFX W. ieille ieux·ieille ieille
 SFX W. ieille ieux·ieilles ieille
+SFX W. ieille ieux·ille ieille
+SFX W. ieille ieux·illes ieille
 SFX W. ofolle oufou ofolle
 SFX W. ofolle oufous ofolle
-SFX W. ofolle oufou·folle ofolle
-SFX W. ofolle oufou·folle·s ofolle
-SFX W. ofolle oufou·folles ofolle
-SFX W. ofolle oufou·folle·s ofolle
-SFX W. ofolle oufou·folles ofolle
 
 SFX S* Y 2
 SFX S* 0 0/D'L'Q' [^sxz]
@@ -675,7 +686,7 @@ SFX I* um a/D'Q' um
 SFX I* us us/D'L'Q' us
 SFX I* us i/D'Q' us
 
-SFX F* Y 159
+SFX F* Y 162
 SFX F* 0 0/D'L'Q' [eë]
 SFX F* 0 s/D'Q' [eë]
 SFX F* e 0/D'L'Q' [éiï]e
@@ -725,14 +736,14 @@ SFX F* nne ns/D'Q' [aeo]nne
 SFX F* nne n·ne/D'L'Q' [aeo]nne
 SFX F* nne n·ne·s/D'Q' [aeo]nne
 SFX F* nne n·nes/D'Q' [aeo]nne
-SFX F* gne n/D'L'Q' igne
-SFX F* gne ns/D'Q' igne
-SFX F* gne n·gne/D'L'Q' igne
-SFX F* gne n·gne·s/D'Q' igne
-SFX F* gne n·gnes/D'Q' igne
+SFX F* igne in/D'L'Q' igne
+SFX F* igne ins/D'Q' igne
 SFX F* igne in·igne/D'L'Q' igne
 SFX F* igne in·igne·s/D'Q' igne
 SFX F* igne in·ignes/D'Q' igne
+SFX F* igne in·gne/D'L'Q' igne
+SFX F* igne in·gne·s/D'Q' igne
+SFX F* igne in·gnes/D'Q' igne
 SFX F* re r/D'L'Q' [aiouûy]re
 SFX F* re rs/D'Q' [aiouûy]re
 SFX F* re r·e/D'L'Q' [aiouûy]re
@@ -745,7 +756,6 @@ SFX F* ère er·ère·s/D'Q' ère
 SFX F* ère er·ères/D'Q' ère
 SFX F* se s/D'L'Q' [^us]se
 SFX F* se s·e/D'L'Q' [^us]se
-SFX F* se s·e·s/D'Q' [^us]se
 SFX F* se s·es/D'Q' [^us]se
 SFX F* esse e/D'L'Q' [^eo].esse
 SFX F* esse es/D'Q' [^eo].esse
@@ -757,6 +767,8 @@ SFX F* eresse eurs/D'Q' eresse
 SFX F* eresse eur·resse/D'L'Q' eresse
 SFX F* eresse eur·resse·s/D'Q' eresse
 SFX F* eresse eur·resses/D'Q' eresse
+SFX F* eresse euresse/D'L'Q' eresse
+SFX F* eresse euresses/D'Q' eresse
 SFX F* oresse eur/D'L'Q' oresse
 SFX F* oresse eurs/D'Q' oresse
 SFX F* oresse eur·oresse/D'L'Q' oresse
@@ -764,12 +776,14 @@ SFX F* oresse eur·oresse·s/D'Q' oresse
 SFX F* oresse eur·oresses/D'Q' oresse
 SFX F* sse s/D'L'Q' [^e]sse
 SFX F* sse s·se/D'L'Q' [^e]sse
-SFX F* sse s·se·s/D'Q' [^e]sse
 SFX F* sse s·ses/D'Q' [^e]sse
+SFX F* sse ·sse·s/D'Q' [^e]sse
+SFX F* sse ·sses/D'Q' [^e]sse
 SFX F* use us/D'L'Q' [^eo]use
 SFX F* use us·e/D'L'Q' [^eo]use
-SFX F* use us·e·s/D'Q' [^eo]use
 SFX F* use us·es/D'Q' [^eo]use
+SFX F* use u·se·s/D'Q' [^eo]use
+SFX F* use u·ses/D'Q' [^eo]use
 SFX F* euse eur/D'L'Q' euse
 SFX F* euse eurs/D'Q' euse
 SFX F* euse eur·se/D'L'Q' euse
@@ -836,15 +850,22 @@ SFX F* üe u·üe/D'L'Q' üe
 SFX F* üe u·üe·s/D'Q' üe
 SFX F* üe u·ües/D'Q' üe
 
-SFX W* Y 29
+SFX W* Y 36
 SFX W* 0 0/D'L'Q' e
 SFX W* e es/D'Q' e
 SFX W* ce x/D'L'Q' ce
-SFX W* use ux/D'L'Q' [eo]use
-SFX W* use ux·se/D'L'Q' [eo]use
-SFX W* use ux·ses/D'Q' [eo]use
-SFX W* use ux·use/D'L'Q' [eo]use
-SFX W* use ux·uses/D'Q' [eo]use
+SFX W* ce x·ce/D'Q' ce
+SFX W* ce x·ces/D'Q' ce
+SFX W* euse eux/D'L'Q' euse
+SFX W* euse eux·se/D'L'Q' euse
+SFX W* euse eux·ses/D'Q' euse
+SFX W* euse eux·euse/D'L'Q' euse
+SFX W* euse eux·euses/D'Q' euse
+SFX W* ouse oux/D'L'Q' ouse
+SFX W* ouse oux·se/D'L'Q' ouse
+SFX W* ouse oux·ses/D'Q' ouse
+SFX W* ouse oux·ouse/D'L'Q' ouse
+SFX W* ouse oux·ouses/D'Q' ouse
 SFX W* ousse oux/D'L'Q' ousse
 SFX W* ousse oux·sse/D'L'Q' ousse
 SFX W* ousse oux·sses/D'Q' ousse
@@ -861,10 +882,10 @@ SFX W* ale aux/D'Q' ale
 SFX W* ale aux·les/D'Q' ale
 SFX W* ale aux·ales/D'Q' ale
 SFX W* elle eau/D'L'Q' elle
-SFX W* elle eau·lle/D'L'Q' elle
-SFX W* elle eau·elle/D'L'Q' elle
 SFX W* elle eaux/D'Q' elle
+SFX W* elle eau·lle/D'L'Q' elle
 SFX W* elle eaux·lles/D'Q' elle
+SFX W* elle eau·elle/D'L'Q' elle
 SFX W* elle eaux·elles/D'Q' elle
 
 PFX Um Y 29
