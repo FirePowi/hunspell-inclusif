@@ -586,7 +586,7 @@ SFX F. ze z ze
 SFX F. ze z·e ze
 SFX F. ze z·es ze
 
-SFX W. N 47
+SFX W. N 49
 SFX W. e es e
 SFX W. ce x ce
 SFX W. ce x·ce ce
@@ -852,7 +852,7 @@ SFX F* üe u·üe/D'L'Q' üe
 SFX F* üe u·üe·s/D'Q' üe
 SFX F* üe u·ües/D'Q' üe
 
-SFX W* Y 36
+SFX W* Y 38
 SFX W* 0 0/D'L'Q' e
 SFX W* e es/D'Q' e
 SFX W* ce x/D'L'Q' ce
@@ -885,7 +885,9 @@ SFX W* ale aux·les/D'Q' ale
 SFX W* ale aux·ales/D'Q' ale
 SFX W* elle eau/D'L'Q' elle
 SFX W* elle eaux/D'Q' elle
+SFX W* elle eaulle/D'L'Q' elle
 SFX W* elle eau·lle/D'L'Q' elle
+SFX W* elle eaulles/D'L'Q' elle
 SFX W* elle eaux·lles/D'Q' elle
 SFX W* elle eau·elle/D'L'Q' elle
 SFX W* elle eaux·elles/D'Q' elle
